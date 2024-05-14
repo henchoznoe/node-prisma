@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import bodyParser from 'body-parser';
 
 import { sendErrorResponse } from "./models/http-responses";
+
 import usersRoutes from './routes/users-routes';
 
 require('dotenv').config();
