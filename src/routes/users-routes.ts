@@ -21,7 +21,7 @@ router.post(
   ],
   handleValidationErrors,
   signup
-)
+);
 
 router.post(
   '/login',
