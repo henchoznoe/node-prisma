@@ -12,3 +12,4 @@ const handleValidationErrors = (req, res, next) => {
     next();
 };
 exports.handleValidationErrors = handleValidationErrors;
+//# sourceMappingURL=fields-validation.js.map

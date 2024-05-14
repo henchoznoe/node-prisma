@@ -20,3 +20,4 @@ router.post('/login', [
     (0, express_validator_1.check)('password').notEmpty().escape().withMessage('Bad password format.')
 ], fields_validation_1.handleValidationErrors, users_1.login);
 exports.default = router;
+//# sourceMappingURL=users-routes.js.map

@@ -15,3 +15,4 @@ const sendErrorResponse = (res, code, message) => {
     });
 };
 exports.sendErrorResponse = sendErrorResponse;
+//# sourceMappingURL=http-responses.js.map

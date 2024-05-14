@@ -26,3 +26,4 @@ app.use((err, req, res, next) => {
 app.listen(process.env.SERVER_PORT, () => {
     console.log(`Server running : http://localhost:${process.env.SERVER_PORT}/`);
 });
+//# sourceMappingURL=index.js.map
